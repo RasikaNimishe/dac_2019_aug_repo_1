@@ -15,6 +15,10 @@ router.put("/emps", (request,responce)=>
 {
     responce.send("Select 2");
 })
+router.put("/emps", (request,responce)=>
+{
+    responce.send("Select 3");
+})
 
 
 router.listen(9898,()=>
